@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int a;
+int b;
+int c;
+int d;
+int e;
+int f;
+int g;
+int h;
+int i;
+int j;
+int k;
+int l;
+int m;
+int sum;
+int multiply;
+int subtract;
+int result;
+cout<<" Enter fifteen numbers ";
+cin>>a;
+cin>>b;
+cin>>c;
+cin>>d;
+cin>>e;
+cin>>f;
+cin>>g;
+cin>>h;
+cin>>i;
+cin>>j;
+cin>>k;
+cin>>l;
+cin>>m;
+sum=0;
+sum=sum+a;
+sum=sum+b;
+sum=sum+c;
+sum=sum+d;
+sum=sum+e;
+multiply=1;
+multiply=multiply*f;
+multiply=multiply*g;
+multiply=multiply*h;
+multiply=multiply*i;
+multiply=multiply*j;
+subtract=0;
+subtract=i-subtract;
+subtract=subtract-j;
+subtract=subtract-k;
+subtract=subtract-l;
+subtract=subtract-m;
+result= sum + multiply + subtract;
+cout <<" Result= "<<result ;
+}
